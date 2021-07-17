@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "node ./node_modules/nyc/bin/nyc.js --reporter=html --reporter=lcov --reporter=text-lcov --reporter=text mocha  ./tests/* --exit"
+    "test": "node .\\node_modules\\nyc\\bin\\nyc.js --reporter=html --reporter=lcov --reporter=text-lcov --reporter=text mocha  .\\tests\\* --exit"
   },
   "dependencies": {
     "bindings": "^1.5.0",
