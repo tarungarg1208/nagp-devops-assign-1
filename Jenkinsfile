@@ -7,7 +7,7 @@ pipeline {
     environment {
         registry = 'tarungarg1208/nagp-devops-assign-1'
         username = 'tarungarg02'
-        port = 3008
+        port = 7100
     }
     tools {
         nodejs 'nodejs'
